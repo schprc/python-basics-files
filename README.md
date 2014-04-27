@@ -1,3 +1,5 @@
+source: [OpenTechShool Berlin](http://opentechschool.github.io/social-coding/)
+
 Setting up
 ==========
 
@@ -115,17 +117,41 @@ Clone files from git to my computer
 -----------------------------------
 
 1. Go to a directory
+```
 cd mydir
+```
 2. clone a repository
-git clone https://github.com/kr15h/RPi-Setup.git
+```bash
+git clone [here](https://github.com/kr15h/RPi-Setup.git)
+```
 3. Check if it is cloned by listing current dir
+```bash
 ls
+```
 4. It should show that RPi-Setup is there
 5. Navigate to that directory
 cd RPi-Setup
 6. use it - for example check git log
+```bash
 git log
+```
 7. It should show the history of the repository
+
+Social Coding in the Underground
+================================
+
+Fork this!
+----------
+
+Add someone as a collaborator on git
+Collaborator downloades clone version of your file
+He/she changes something
+```bash
+git commit -am "description"
+```
+```bash
+git push origin master
+```
 
 Markdown
 --------
@@ -139,3 +165,10 @@ alt + ~ = ``
 It is a git version of the `mv` command. It renames README to README.md and does everything to keep the git repository in tact (remove README from and add README.md to the repository).
 
 More about GitHub markdown read [here](https://github.com/schprc/python-basics-files.git)
+
+and ...
+
+# This is a large heading
+
+This is a paragraph with *emphasis* and **strong** text.
+
