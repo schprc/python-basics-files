@@ -1,0 +1,25 @@
+terminal commands:
+
+cd = change directory (cd .. = will go one level up)
+ls = list directory content
+pwd = print working directory
+touch README = it will create file README
+mkdir directoryname = will create directory
+
+- -
+
+git commands:
+
+git init myfirstrepo = will create directory "myfirstrepo"
+git add = add file
+git rm = remove file
+git status = git will let you know the current status of your repository
+
+- -
+
+We can put any type of file into Git. It is especially good at keeping track of text files such as Python, Javascript, HTML and CSS. A very common file is the README, which is used to tell people what the repository is about. Create a new file called README inside myfirstrepo/ with your text editor. (You can make it in Sublime and save in the directory, then open it via terminal.)
+
+git add <file> = will add file with "file" name
+git add . = will adda all file sin directory
+
+
