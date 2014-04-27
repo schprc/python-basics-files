@@ -1,4 +1,8 @@
-terminal commands:
+Setting up
+==========
+
+terminal commands
+-----------------
 
 cd = change directory (cd .. = will go one level up)
 ls = list directory content
@@ -6,9 +10,8 @@ pwd = print working directory
 touch README = it will create file README
 mkdir directoryname = will create directory
 
-- -
-
-git commands:
+git commands
+------------
 
 git init myfirstrepo = will create directory "myfirstrepo"
 git add = add file
