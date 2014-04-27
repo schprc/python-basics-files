@@ -82,6 +82,8 @@ $ git push origin master (paste it on GitHub account)
 
 - -
 
+Clone files from git to my computer:
+
 1. Go to a directory
 cd mydir
 2. clone a repository
