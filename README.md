@@ -130,13 +130,12 @@ git log
 Markdown
 --------
 
-`git mv README README.md`
+```bash
+git mv README README.md
+```
 
 alt + ~ = ``
 
+It is a git version of the `mv` command. It renames README to README.md and does everything to keep the git repository in tact (remove README from and add README.md to the repository).
 
-
-
-
-
-
+More about GitHub markdown read [here](https://github.com/schprc/python-basics-files.git)
