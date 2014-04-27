@@ -116,26 +116,26 @@ $ git push origin master (paste it on GitHub account)
 Clone files from git to my computer
 -----------------------------------
 
-1. Go to a directory
+- Go to a directory
 ```
 cd mydir
 ```
-2. clone a repository
+- clone a repository
 ```bash
 git clone [here](https://github.com/kr15h/RPi-Setup.git)
 ```
-3. Check if it is cloned by listing current dir
+- Check if it is cloned by listing current dir
 ```bash
 ls
 ```
-4. It should show that RPi-Setup is there
-5. Navigate to that directory
+- It should show that RPi-Setup is there
+- Navigate to that directory
 cd RPi-Setup
-6. use it - for example check git log
+- use it - for example check git log
 ```bash
 git log
 ```
-7. It should show the history of the repository
+- It should show the history of the repository
 
 Social Coding in the Underground
 ================================
@@ -167,9 +167,9 @@ It is a git version of the `mv` command. It renames README to README.md and does
 More about GitHub markdown read [here](https://github.com/schprc/python-basics-files.git)
 
 and/or (without spaces):
-hash + text (is a large heading),
-multiply + text + muliply (text in italic),
-multiply multiply + text + muliply multiply (strong text) 
+- hash + text (is a large heading)
+- multiply + text + muliply (text in italic)
+- multiply multiply + text + muliply multiply (strong text)
 
 
 
