@@ -64,15 +64,36 @@ Fortunately, the process is pretty simple. We’ll create a repository on GitHub
 
 Create a repository called ‘myfirstrepo’ on the new repository page. Leave all the options as default.
 
-
 Now, on that web page, see the section Push an existing repository from the command line. It has the two key commands you’ll need, tailored for your repository.
-
 
 & git remote add 
 associates your local repository to your GitHub repository, which will be called origin (which is a Git convention for the default remote repository). You could also call it github or upstream or anything you like, as it only applies to your local repository.
 
 & git push 
 pushes commits to origin (GitHub) from the branch master (the default branch). Then the -u option tells Git that we want to push to a branch called master on the remote repository called origin as the default in future, so we don’t have to type it every time. Our local and remote master branches are now linked.
+
+- -
+
+if you change some file:
+
+$ git status (will show you modified file)
+$ git commit -am "README update" (or any diffferent cahnge as update, just as a note for yourself)
+$ git push origin master (paste it on GitHub account)
+
+- -
+
+1. Go to a directory
+cd mydir
+2. clone a repository
+git clone https://github.com/kr15h/RPi-Setup.git
+3. Check if it is cloned by listing current dir
+ls
+4. It should show that RPi-Setup is there
+5. Navigate to that directory
+cd RPi-Setup
+6. use it - for example check git log
+git log
+7. It should show the history of the repository
 
 
 
