@@ -166,9 +166,9 @@ It is a git version of the `mv` command. It renames README to README.md and does
 
 More about GitHub markdown read [here](https://github.com/schprc/python-basics-files.git)
 
-and ...
+and/or ...
 
-# This is a large heading
+#This is a large heading (with space after hash)
 
 This is a paragraph with *emphasis* and **strong** text.
 
