@@ -4,8 +4,8 @@ Setting up
 terminal commands
 -----------------
 
-cd = change directory (cd .. = will go one level up)
-ls = list directory content
+`cd` = change directory (cd .. = will go one level up)
+`ls` = list directory content
 pwd = print working directory
 touch README = it will create file README
 mkdir directoryname = will create directory
@@ -27,7 +27,11 @@ git add . = will adda all file sin directory
 
 - -
 
-git commit -m "Initial commit" (-m = short msg)
+```
+git commit -m "Initial commit" 
+```
+
+(`-m` = short msg)
 
 if you write $ git status, it shows no changes
 if you change file and write $ git status, it will show changes
@@ -99,6 +103,12 @@ cd RPi-Setup
 6. use it - for example check git log
 git log
 7. It should show the history of the repository
+
+- -
+
+Markdown
+
+$ git mv README README.md
 
 
 
